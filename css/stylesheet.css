@@ -1,0 +1,256 @@
+body{
+  background-color:#f6f4e6;
+}
+.img{
+background-image:url("https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-laptop-color-brush-coffee-cartoon-background-on-wooden-table-tablelaptopcolorbrushcoffeecartoonbackground-image_60613.jpg");
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+height:740px;
+width:1520px;
+filter:blur(3px);
+-webkit-filter:blur(3px);
+box-sizing: border-box;
+
+}
+.bg-text {
+  background-color:#fde2e2; /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.container-fluid{
+  position: absolute;
+  top:10%;
+  left:50%;
+  transform: translate(-60%, -40%);
+  z-index: 2;
+  width: 80%;
+}
+.texts{
+  font-family: 'Montserrat-black';
+  font-size:5rem;
+  line-height:1.5;
+  color:#481380;
+  font-weight: bolder;
+}
+
+.title-text{
+  text-align: center;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.navbar-brand{
+  font-size:2rem;
+  color:#000;
+  font-family:'Ubuntu-bold';
+}
+.nav-link{
+  color:#000;
+  font-size:1.2rem;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+  color:#000;
+}
+.mypic{
+  width:300px;
+  height:350px;
+  padding:30px 0 0 30px;
+  position:relative;
+  left: 40%;
+  padding-bottom:20px;
+}
+.intro{
+  font-family: 'Montserrat';
+  text-align: center;
+  border:2px solid white;
+  padding:10px;
+  box-sizing: border-box;
+  box-shadow:1px 1px 10px #000;
+  height:380px;
+  width:800px;
+  margin-left:360px;
+  margin-bottom:100px;
+  background-color:#f9f6f7;
+}
+p{
+  padding: 5px;
+  font-family:'Montserrat';
+  font-weight:bold;
+}
+.intro-text{
+  margin-bottom: 30px;
+  color:#230444;
+}
+html{
+  scroll-behavior: smooth;
+
+}
+.skillh{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom:5%;
+}
+.html-icon{
+  width:200px;
+  height:200px;
+  float: left;
+  position: absolute;
+  left:200px;
+  top:1700px;
+}
+.html-text{
+  padding-top:70px;
+  position: absolute;
+  left:430px;
+}
+.css-icon{
+  width:200px;
+  height:200px;
+  float:left;
+  position: absolute;
+  top:1700px;
+  right:300px;
+}
+.css-text{
+  padding-top:70px;
+  position: absolute;
+  left:1250px;
+}
+.boot-icon{
+  width:200px;
+  height:200px;
+  float:left;
+  position: absolute;
+  top:2000px;
+  left:200px;
+}
+.boot-text{
+  padding-top:380px;
+  position: absolute;
+  left:430px;
+}
+.c-icon{
+  width:200px;
+  height:200px;
+  float:left;
+  position: absolute;
+  top:2000px;
+  right:300px;
+}
+.c-text{
+  padding-top:380px;
+  position: absolute;
+  left:1250px;
+}
+  .python-icon{
+    width:400px;
+    height:200px;
+    float:left;
+    position:absolute;
+    top:2250px;
+    right:600px;
+  }
+  .python-text{
+    padding-top:600px;
+    position: absolute;
+    left:860px;
+  }
+  .resumeh{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin-top:65%;
+    margin-right:30%;
+
+  }
+.resumehh{
+  margin-left:23%;
+  margin-top:0;
+  font-weight: bold;
+}
+.buttton{
+  margin-left:60%;
+  margin-top:0;
+  margin-bottom:10px;
+}
+.linkh{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin-top:150px;
+}
+.link{
+  width:150px;
+  height:150px;
+  padding-top: 50px;
+}
+table{
+  margin-left: 500px;
+}
+.contacts{
+  background-color: #000;
+  padding-bottom:0;
+}
+.contacth{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top:150px;
+  color:#fff;
+  padding:20px;
+}
+.contacthh{
+  color:#fff;
+  display: inline-table;
+  padding-left:160px;
+  font-weight: light;
+
+}
+.icon{
+  color:#f8eeee;
+}
+.contactp{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
